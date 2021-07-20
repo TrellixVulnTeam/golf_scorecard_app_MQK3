@@ -342,8 +342,8 @@ a.active {
 
 input[type=text], input[type=password] {
   /* width: 30%; */
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 5px;
+  margin: 5px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -915,13 +915,15 @@ display: flex;
   margin: 10px;
   padding: 10px;
   margin-right: 10px;
+  border-radius: 25px;
+  padding: 25px;
 }
 
 #mySidenavCookies {
  
   height: auto;
   display:flex;
-  width: 100%;
+  width: 94%;
   position: fixed;
   
 }
@@ -932,12 +934,14 @@ display: flex;
   position: fixed;
   z-index: 4;
   bottom: 0;
-  right: 0;
+  /* right: 0; */
   background-color:#DFDFDF;
   overflow-x: hidden;
   transition: 0.5s;
   align-items: center;
-  margin: auto;
+  margin: 3%;
+  border-radius: 25px;
+  box-shadow: 0px 0px 19px 1px;
 }
 
 
@@ -1123,10 +1127,9 @@ padding: 90px 50px 20px
   background-image: url(QR-code-to-Golfer-Scorecards.png);
    background-size: cover;
     background-repeat: no-repeat;
-  width: 220px;
-  height: 220px;
-  margin: 5px;
-  padding: 5px;
+  width: 170px;
+  height: 170px;
+  margin: 20px auto;
    border-radius: 8px;
 }
 
@@ -1238,11 +1241,14 @@ font-size: 11px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
+  margin: 20px;
   width: 150px;
 }
 
 .fontcolorwhite{
   color: white;
+  margin: 5px 5px ;
+  text-align: center;
 }
 
 .center {
