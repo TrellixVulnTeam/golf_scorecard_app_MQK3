@@ -17,7 +17,7 @@
     "express-session": "^1.17.1",
     "mongoose": "^5.12.8",
     "morgan": "^1.10.0",
-    "nodemon": "^1.19.4",
+    "nodemon": "^2.0.13",
     "npm-check-updates": "^11.5.11",
     "request": "^2.88.2",
     "updates": "^11.4.3",
