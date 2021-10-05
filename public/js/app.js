@@ -983,6 +983,7 @@ function resetScorecard () {
     if (confirm("Do you want to clear Scorecard?")) {
         /*Clear all input type="text" box*/
         $('input[type="text"]').val('');
+        $('input[type="number"]').val('');
         
         /*Clear textarea using id */
         // $('#txtAddress').val('');
