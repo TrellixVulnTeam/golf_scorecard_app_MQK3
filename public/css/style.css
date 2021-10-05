@@ -345,7 +345,7 @@ input[type=text], input[type=password] {
   padding: 5px;
   margin: 5px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   box-sizing: border-box;
 }
 
