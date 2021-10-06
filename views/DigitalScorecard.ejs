@@ -6,20 +6,52 @@
 </head>
 
 <body>
-   
+
+
    <div class="mainPicture">    
         <div class="mainTopnumber">
 
 
-<div style= " height: 100px;">
+<!-- top nav back button -->
+<!-- <div style= " height: 100px;">
 <a href="/">
         <div style="width: 200px; margin: 0px" class="IndexScorecardsubmitAddBtn">
                 <<< Golf Scorecard App </div>
 </a>
+</div> -->
+<!-- end of top nav back button -->
+
+
+<!-- top nav bar -->
+<div class="topnav">
+
+        <div >
+
+                <a class="aTagTopNavDivLogo" href="/">
+                        Golf Scorecards App
+                </a>
+        </div>
+
+        <div >
+
+                <!-- <a href="/">Home</a> -->
+                <!-- <a ng-if='ctrl.user' class="aTagTopNav" href="/scorecards">My Scorecards</a> -->
+                <a class="aTagTopNav" onclick="openWeatherNav()">Weather</a>
+
+                <!-- three lines icon -->
+                <a class="threeLines" onclick="openMenuNav()">&#9776;</a>
+        </div>
 </div>
 
-        <h1>Digital Scorecard</h1>
-        <h3>Front 9</h3>
+<!-- end of top nav bar -->
+
+
+
+
+
+
+        <h1 class="digitalScorecardFont" style="padding-top: 50px; margin-top: 50px;">Digital Scorecard</h1>
+        <h3 class="digitalScorecardFont">Front 9</h3>
 
 <!-- start of Front 9 scorecard div -->
 <div class="scorecardWrapperBox">
@@ -320,7 +352,7 @@
 
 
 
-<h3>Back 9</h3>
+<h3 class="digitalScorecardFont">Back 9</h3>
 
 <!-- start of Back 9 scorecard div -->
 <div class="scorecardWrapperBox">
@@ -653,13 +685,15 @@
 
 
 
-
-<!-- Start of QR code sharing -->
-
-<h2 style="width: 200px; margin: auto auto; height:auto; text-align: center; background-color: gray;" >Scan QR code<br> </h2>
 <br><br><br>
+<!-- Start of QR code sharing -->
+<div class="scanQRBox">
+        <h2 style="width: 200px; margin: auto auto; height:auto; text-align: center; color:white" >Scan to Share Scorecard </h2>
+        <br><br>
 
-<div class="QRcode" style="margin: auto; "></div>
+        <div class="QRcode" style="margin: auto; "></div>
+
+</div>
 
 <!-- <div class="scorecardlinkWrapper">
         <a href="/DigitalScorecard">
@@ -670,12 +704,6 @@
                 </div>
         </a>
 </div> -->
-
-
-<br>
-<br>
-
-
 
 
 
