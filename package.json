@@ -21,6 +21,6 @@
     "npm-check-updates": "^11.5.11",
     "request": "^2.88.2",
     "updates": "^11.4.3",
-    "url-parse": "^1.5.1"
+    "url-parse": "^1.5.9"
   }
 }
